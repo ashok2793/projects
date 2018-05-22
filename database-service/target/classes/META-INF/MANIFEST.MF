@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: database-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Ashok
+Implementation-Vendor-Id: com.ibm
+Build-Jdk: 1.8.0_172
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/database-service
+Created-By: Maven Integration for Eclipse
+
