@@ -1,0 +1,619 @@
+2018/06/20 11:32:17.826 +0530|INFO|ashmoh27|9956|1|null.null|DME2 Version=2.8.13
+2018/06/20 11:32:18.771 +0530|WARNING|ashmoh27|9956|1|null.null|com.att.aft.dme2.api.DME2Manager|main|N/A|N/A|DME2Manager
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0003]: DME2Manager cannot initialize because of a missing AFT_LATITUDE configuration variable. [Context: manager=DefaultDME2Manager;]
+	at com.att.aft.dme2.api.DME2Manager.<init>(DME2Manager.java:304)
+	at com.att.aft.dme2.api.DME2Manager.getDefaultInstance(DME2Manager.java:242)
+	at com.att.aft.dme2.api.DME2Manager.<clinit>(DME2Manager.java:207)
+	at mail.examples.DME2RestfulHandler1.main(DME2RestfulHandler1.java:24)
+2018/06/20 11:32:18.774 +0530|INFO|ashmoh27|9956|1|null.null|DME2 Version=2.8.13
+2018/06/20 11:32:31.777 +0530|INFO|ashmoh27|4620|1|null.null|DME2 Version=2.8.13
+2018/06/20 11:32:32.965 +0530|WARNING|ashmoh27|4620|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 11:32:32.967 +0530|INFO|ashmoh27|4620|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 11:32:32.968 +0530|INFO|ashmoh27|4620|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 11:32:32.969 +0530|INFO|ashmoh27|4620|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 11:32:32.970 +0530|INFO|ashmoh27|4620|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 11:32:32.972 +0530|INFO|ashmoh27|4620|1|null.null|DME2 Version=2.8.13
+2018/06/20 11:32:32.997 +0530|WARNING|ashmoh27|4620|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 11:32:43.871 +0530|WARNING|ashmoh27|4620|51|null.null|com.att.aft.dme2.api.util.DME2GRMJVMRegistration|DME2::DME2Server::jvmRegisterTimer|N/A|N/A|Code=Exception.DME2GRMJVMRegistration.DME2GRMJVMRegistration;Exception=com.att.aft.dme2.api.DME2Exception: [AFT-DME2-9731]: AFT Discovery URI Invalid: query to discovery service endpoints failed; unable to determine physical network address(s) for the provided URI. [Context: urls=[aftdsc:///?service=SOACloudEndpointRegistryGRMLWPService&version=1.0&bindingType=http&envContext=T];extendedMessage=No response data was obtained from a discovery service endpoint;];Message=[AFT-DME2-9731]: AFT Discovery URI Invalid: query to discovery service endpoints failed; unable to determine physical network address(s) for the provided URI. [Context: urls=[aftdsc:///?service=SOACloudEndpointRegistryGRMLWPService&version=1.0&bindingType=http&envContext=T];extendedMessage=No response data was obtained from a discovery service endpoint;];AttemptNumber=1;MaxRetries=3
+2018/06/20 11:32:52.446 +0530|WARNING|ashmoh27|4620|51|null.null|com.att.aft.dme2.api.util.DME2GRMJVMRegistration|DME2::DME2Server::jvmRegisterTimer|N/A|N/A|Code=Exception.DME2GRMJVMRegistration.DME2GRMJVMRegistration;Exception=com.att.aft.dme2.api.DME2Exception: [AFT-DME2-9731]: AFT Discovery URI Invalid: query to discovery service endpoints failed; unable to determine physical network address(s) for the provided URI. [Context: urls=[aftdsc:///?service=SOACloudEndpointRegistryGRMLWPService&version=1.0&bindingType=http&envContext=T];extendedMessage=No response data was obtained from a discovery service endpoint;];Message=[AFT-DME2-9731]: AFT Discovery URI Invalid: query to discovery service endpoints failed; unable to determine physical network address(s) for the provided URI. [Context: urls=[aftdsc:///?service=SOACloudEndpointRegistryGRMLWPService&version=1.0&bindingType=http&envContext=T];extendedMessage=No response data was obtained from a discovery service endpoint;];AttemptNumber=2;MaxRetries=3
+2018/06/20 11:32:56.908 +0530|INFO|ashmoh27|4620|50|c.a.a.d.a.u.LogUtil.doReport|ID:371d33e6-dcae-4c08-9766-05849467b7ae|Ashok|Code=Client.Receive.Success;ServerURL=http://zlp22257.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=22799;AllEndpointAttemptsElapsedMs=22871;ResponseSize=1367
+2018/06/20 12:07:00.833 +0530|INFO|ashmoh27|11104|1|null.null|DME2 Version=2.8.13
+2018/06/20 12:07:01.755 +0530|WARNING|ashmoh27|11104|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 12:07:01.757 +0530|INFO|ashmoh27|11104|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 12:07:01.758 +0530|INFO|ashmoh27|11104|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 12:07:01.759 +0530|INFO|ashmoh27|11104|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 12:07:01.760 +0530|INFO|ashmoh27|11104|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 12:07:01.762 +0530|INFO|ashmoh27|11104|1|null.null|DME2 Version=2.8.13
+2018/06/20 12:07:01.783 +0530|WARNING|ashmoh27|11104|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 12:07:05.291 +0530|INFO|ashmoh27|11104|48|c.a.a.d.a.u.LogUtil.doReport|ID:51e9fa50-8aef-428c-adcd-f4b1d57b96e3|Ashok|Code=Client.Receive.Success;ServerURL=http://zlp22257.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=2496;AllEndpointAttemptsElapsedMs=2574;ResponseSize=1366
+2018/06/20 12:07:40.832 +0530|INFO|ashmoh27|4700|1|null.null|DME2 Version=2.8.13
+2018/06/20 12:07:41.669 +0530|WARNING|ashmoh27|4700|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 12:07:41.672 +0530|INFO|ashmoh27|4700|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 12:07:41.673 +0530|INFO|ashmoh27|4700|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 12:07:41.674 +0530|INFO|ashmoh27|4700|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 12:07:41.675 +0530|INFO|ashmoh27|4700|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 12:07:41.677 +0530|INFO|ashmoh27|4700|1|null.null|DME2 Version=2.8.13
+2018/06/20 12:07:41.706 +0530|WARNING|ashmoh27|4700|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 12:07:43.654 +0530|INFO|ashmoh27|4700|45|c.a.a.d.a.u.LogUtil.doReport|ID:c4dc83fe-2aa1-4782-acc3-e102875dc0a2|Ashok|Code=Client.Receive.Success;ServerURL=http://zlp22257.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=987;AllEndpointAttemptsElapsedMs=1042;ResponseSize=1366
+2018/06/20 17:25:58.909 +0530|INFO|ashmoh27|8340|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:26:00.141 +0530|WARNING|ashmoh27|8340|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:26:00.141 +0530|INFO|ashmoh27|8340|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:26:00.141 +0530|INFO|ashmoh27|8340|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:26:00.141 +0530|INFO|ashmoh27|8340|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:26:00.157 +0530|INFO|ashmoh27|8340|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:26:00.157 +0530|INFO|ashmoh27|8340|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:26:00.203 +0530|WARNING|ashmoh27|8340|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:27:43.451 +0530|INFO|ashmoh27|8340|45|c.a.a.d.a.u.LogUtil.doReport|ID:3dd36660-3250-4324-8d9f-da299ad6c437|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=2107;AllEndpointAttemptsElapsedMs=5478;ResponseSize=1366
+2018/06/20 17:27:46.308 +0530|WARNING|ashmoh27|8340|60|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/20 17:27:47.760 +0530|INFO|ashmoh27|8340|50|c.a.a.d.a.u.LogUtil.doReport|ID:6b6bfcfe-9d6c-4f71-b560-d29fb8f198bb|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hlth449.hydc.sbc.com:17427/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=1561;AllEndpointAttemptsElapsedMs=3997;ResponseSize=0
+2018/06/20 17:31:28.145 +0530|INFO|ashmoh27|10148|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:31:29.237 +0530|WARNING|ashmoh27|10148|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:31:29.237 +0530|INFO|ashmoh27|10148|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:31:29.237 +0530|INFO|ashmoh27|10148|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:31:29.237 +0530|INFO|ashmoh27|10148|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:31:29.237 +0530|INFO|ashmoh27|10148|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:31:29.252 +0530|INFO|ashmoh27|10148|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:31:29.300 +0530|WARNING|ashmoh27|10148|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:32:35.247 +0530|INFO|ashmoh27|8372|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:32:36.339 +0530|WARNING|ashmoh27|8372|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:32:36.339 +0530|INFO|ashmoh27|8372|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:32:36.339 +0530|INFO|ashmoh27|8372|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:32:36.339 +0530|INFO|ashmoh27|8372|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:32:36.339 +0530|INFO|ashmoh27|8372|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:32:36.355 +0530|INFO|ashmoh27|8372|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:32:36.402 +0530|WARNING|ashmoh27|8372|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:33:56.575 +0530|INFO|ashmoh27|8372|52|c.a.a.d.a.u.LogUtil.doReport|ID:7d5e3763-bf3a-41a6-9f09-6bb9b3ebc1da|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1544;AllEndpointAttemptsElapsedMs=5072;ResponseSize=1366
+2018/06/20 17:33:59.324 +0530|WARNING|ashmoh27|8372|60|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/20 17:34:01.649 +0530|INFO|ashmoh27|8372|53|c.a.a.d.a.u.LogUtil.doReport|ID:84040b69-2491-4cc2-9baa-0eea2b291375|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hlth448.hydc.sbc.com:28099/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=1514;AllEndpointAttemptsElapsedMs=4823;ResponseSize=0
+2018/06/20 17:43:05.539 +0530|INFO|ashmoh27|1604|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:43:05.586 +0530|INFO|ashmoh27|9152|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:43:07.348 +0530|WARNING|ashmoh27|9152|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:43:07.348 +0530|INFO|ashmoh27|9152|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:43:07.348 +0530|INFO|ashmoh27|9152|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:43:07.348 +0530|INFO|ashmoh27|9152|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:43:07.364 +0530|INFO|ashmoh27|9152|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:43:07.364 +0530|INFO|ashmoh27|9152|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:43:07.395 +0530|WARNING|ashmoh27|9152|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:43:07.690 +0530|INFO|ashmoh27|1604|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:43:07.690 +0530|INFO|ashmoh27|1604|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:43:07.690 +0530|INFO|ashmoh27|1604|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:43:07.690 +0530|WARNING|ashmoh27|1604|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:43:07.690 +0530|INFO|ashmoh27|1604|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:43:07.706 +0530|INFO|ashmoh27|1604|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:43:07.752 +0530|WARNING|ashmoh27|1604|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:43:12.403 +0530|INFO|ashmoh27|1604|49|c.a.a.d.a.u.LogUtil.doReport|ID:0e5977a7-e996-4c8f-b4f9-c88bf9bddaa0|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=953;AllEndpointAttemptsElapsedMs=2859;ResponseSize=1366
+2018/06/20 17:43:12.590 +0530|INFO|ashmoh27|9152|44|c.a.a.d.a.u.LogUtil.doReport|ID:94787b4d-6d35-4be8-9ce5-9f06619b398a|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1484;AllEndpointAttemptsElapsedMs=3401;ResponseSize=1366
+2018/06/20 17:43:33.880 +0530|INFO|ashmoh27|6448|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:43:35.081 +0530|WARNING|ashmoh27|6448|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:43:35.081 +0530|INFO|ashmoh27|6448|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:43:35.081 +0530|INFO|ashmoh27|6448|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:43:35.081 +0530|INFO|ashmoh27|6448|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:43:35.081 +0530|INFO|ashmoh27|6448|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:43:35.081 +0530|INFO|ashmoh27|6448|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:43:35.128 +0530|WARNING|ashmoh27|6448|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:43:39.204 +0530|INFO|ashmoh27|6448|50|c.a.a.d.a.u.LogUtil.doReport|ID:b9aceec9-1613-4924-8ce1-907763ea72b1|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=921;AllEndpointAttemptsElapsedMs=2827;ResponseSize=1365
+2018/06/20 17:47:11.105 +0530|INFO|ashmoh27|10328|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:47:12.509 +0530|WARNING|ashmoh27|10328|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:47:12.525 +0530|INFO|ashmoh27|10328|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:47:12.525 +0530|INFO|ashmoh27|10328|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:47:12.525 +0530|INFO|ashmoh27|10328|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:47:12.525 +0530|INFO|ashmoh27|10328|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:47:12.525 +0530|INFO|ashmoh27|10328|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:47:12.587 +0530|WARNING|ashmoh27|10328|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:47:27.818 +0530|INFO|ashmoh27|10328|45|c.a.a.d.a.u.LogUtil.doReport|ID:79fbb2b6-ee3d-4db7-a0b5-b5b5d3ed3dde|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1968;AllEndpointAttemptsElapsedMs=3810;ResponseSize=1366
+2018/06/20 17:48:06.511 +0530|INFO|ashmoh27|10952|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:48:07.649 +0530|WARNING|ashmoh27|10952|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:48:07.649 +0530|INFO|ashmoh27|10952|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:48:07.665 +0530|INFO|ashmoh27|10952|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:48:07.665 +0530|INFO|ashmoh27|10952|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:48:07.665 +0530|INFO|ashmoh27|10952|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:48:07.665 +0530|INFO|ashmoh27|10952|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:48:07.696 +0530|WARNING|ashmoh27|10952|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:48:11.647 +0530|INFO|ashmoh27|10952|50|c.a.a.d.a.u.LogUtil.doReport|ID:105589a0-1c4f-476c-9945-684dff3343fa|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=953;AllEndpointAttemptsElapsedMs=2764;ResponseSize=1366
+2018/06/20 17:48:40.387 +0530|INFO|ashmoh27|10580|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:48:41.495 +0530|WARNING|ashmoh27|10580|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:48:41.495 +0530|INFO|ashmoh27|10580|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:48:41.495 +0530|INFO|ashmoh27|10580|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:48:41.495 +0530|INFO|ashmoh27|10580|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:48:41.495 +0530|INFO|ashmoh27|10580|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:48:41.510 +0530|INFO|ashmoh27|10580|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:48:41.542 +0530|WARNING|ashmoh27|10580|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:48:45.648 +0530|INFO|ashmoh27|10580|50|c.a.a.d.a.u.LogUtil.doReport|ID:4199933a-3188-48f7-ba96-315c535a3fef|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=968;AllEndpointAttemptsElapsedMs=2826;ResponseSize=1366
+2018/06/20 17:51:05.991 +0530|INFO|ashmoh27|11032|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:51:07.146 +0530|WARNING|ashmoh27|11032|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:51:07.146 +0530|INFO|ashmoh27|11032|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:51:07.146 +0530|INFO|ashmoh27|11032|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:51:07.146 +0530|INFO|ashmoh27|11032|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:51:07.146 +0530|INFO|ashmoh27|11032|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:51:07.146 +0530|INFO|ashmoh27|11032|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:51:07.177 +0530|WARNING|ashmoh27|11032|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:51:11.237 +0530|INFO|ashmoh27|11032|50|c.a.a.d.a.u.LogUtil.doReport|ID:c7324959-12f4-42cc-9d2d-078de8d20330|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=953;AllEndpointAttemptsElapsedMs=2827;ResponseSize=1366
+2018/06/20 17:53:21.767 +0530|INFO|ashmoh27|9008|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:53:22.890 +0530|WARNING|ashmoh27|9008|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:53:22.890 +0530|INFO|ashmoh27|9008|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:53:22.906 +0530|INFO|ashmoh27|9008|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:53:22.906 +0530|INFO|ashmoh27|9008|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:53:22.906 +0530|INFO|ashmoh27|9008|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:53:22.906 +0530|INFO|ashmoh27|9008|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:53:22.937 +0530|WARNING|ashmoh27|9008|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:53:28.012 +0530|INFO|ashmoh27|9008|44|c.a.a.d.a.u.LogUtil.doReport|ID:12b98c26-aab3-42c6-b886-573aeb36f46b|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1983;AllEndpointAttemptsElapsedMs=3795;ResponseSize=1365
+2018/06/20 17:54:30.089 +0530|INFO|ashmoh27|11056|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:54:31.384 +0530|WARNING|ashmoh27|11056|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:54:31.399 +0530|INFO|ashmoh27|11056|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:54:31.399 +0530|INFO|ashmoh27|11056|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:54:31.399 +0530|INFO|ashmoh27|11056|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:54:31.399 +0530|INFO|ashmoh27|11056|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:54:31.415 +0530|INFO|ashmoh27|11056|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:54:31.446 +0530|WARNING|ashmoh27|11056|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:55:24.165 +0530|INFO|ashmoh27|6140|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:55:25.320 +0530|WARNING|ashmoh27|6140|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:55:25.320 +0530|INFO|ashmoh27|6140|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:55:25.320 +0530|INFO|ashmoh27|6140|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:55:25.320 +0530|INFO|ashmoh27|6140|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 17:55:25.320 +0530|INFO|ashmoh27|6140|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 17:55:25.320 +0530|INFO|ashmoh27|6140|1|null.null|DME2 Version=2.8.13
+2018/06/20 17:55:25.367 +0530|WARNING|ashmoh27|6140|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 17:55:29.380 +0530|INFO|ashmoh27|6140|49|c.a.a.d.a.u.LogUtil.doReport|ID:e542d8c7-6f14-4b38-b205-0d4b2eb99fd0|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=922;AllEndpointAttemptsElapsedMs=2733;ResponseSize=1366
+2018/06/20 18:00:49.187 +0530|INFO|ashmoh27|9124|1|null.null|DME2 Version=2.8.13
+2018/06/20 18:00:50.546 +0530|WARNING|ashmoh27|9124|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 18:00:50.546 +0530|INFO|ashmoh27|9124|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:00:50.546 +0530|INFO|ashmoh27|9124|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:00:50.546 +0530|INFO|ashmoh27|9124|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:00:50.546 +0530|INFO|ashmoh27|9124|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 18:00:50.561 +0530|INFO|ashmoh27|9124|1|null.null|DME2 Version=2.8.13
+2018/06/20 18:00:50.592 +0530|WARNING|ashmoh27|9124|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 18:00:56.101 +0530|INFO|ashmoh27|9124|44|c.a.a.d.a.u.LogUtil.doReport|ID:343a52d3-a3f8-48dc-97ef-d695eff45a8c|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=2450;AllEndpointAttemptsElapsedMs=4246;ResponseSize=1366
+2018/06/20 18:03:22.216 +0530|INFO|ashmoh27|4564|1|null.null|DME2 Version=2.8.13
+2018/06/20 18:03:23.339 +0530|WARNING|ashmoh27|4564|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 18:03:23.355 +0530|INFO|ashmoh27|4564|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:03:23.355 +0530|INFO|ashmoh27|4564|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:03:23.355 +0530|INFO|ashmoh27|4564|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:03:23.355 +0530|INFO|ashmoh27|4564|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 18:03:23.355 +0530|INFO|ashmoh27|4564|1|null.null|DME2 Version=2.8.13
+2018/06/20 18:03:23.387 +0530|WARNING|ashmoh27|4564|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 18:03:28.821 +0530|INFO|ashmoh27|4564|46|c.a.a.d.a.u.LogUtil.doReport|ID:eb449a18-bbde-4688-acca-374f2d83b3f6|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=968;AllEndpointAttemptsElapsedMs=4279;ResponseSize=1365
+2018/06/20 18:04:11.304 +0530|INFO|ashmoh27|9196|1|null.null|DME2 Version=2.8.13
+2018/06/20 18:04:12.458 +0530|WARNING|ashmoh27|9196|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 18:04:12.474 +0530|INFO|ashmoh27|9196|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:04:12.474 +0530|INFO|ashmoh27|9196|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:04:12.474 +0530|INFO|ashmoh27|9196|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:04:12.474 +0530|INFO|ashmoh27|9196|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 18:04:12.474 +0530|INFO|ashmoh27|9196|1|null.null|DME2 Version=2.8.13
+2018/06/20 18:04:12.514 +0530|WARNING|ashmoh27|9196|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 18:04:16.511 +0530|INFO|ashmoh27|9196|50|c.a.a.d.a.u.LogUtil.doReport|ID:dbb56af6-6b94-41d8-95b6-650e047d122f|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=952;AllEndpointAttemptsElapsedMs=2764;ResponseSize=1366
+2018/06/20 18:04:46.956 +0530|INFO|ashmoh27|8036|1|null.null|DME2 Version=2.8.13
+2018/06/20 18:04:48.204 +0530|WARNING|ashmoh27|8036|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 18:04:48.204 +0530|INFO|ashmoh27|8036|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:04:48.204 +0530|INFO|ashmoh27|8036|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:04:48.204 +0530|INFO|ashmoh27|8036|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/20 18:04:48.220 +0530|INFO|ashmoh27|8036|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/20 18:04:48.220 +0530|INFO|ashmoh27|8036|1|null.null|DME2 Version=2.8.13
+2018/06/20 18:04:48.251 +0530|WARNING|ashmoh27|8036|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/20 18:04:53.919 +0530|INFO|ashmoh27|8036|45|c.a.a.d.a.u.LogUtil.doReport|ID:c9379945-45db-4715-ac4f-8058d33dfe5f|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=2669;AllEndpointAttemptsElapsedMs=4434;ResponseSize=1365
+2018/06/21 12:33:16.930 +0530|INFO|ashmoh27|8380|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:35:17.428 +0530|INFO|ashmoh27|10444|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:35:18.224 +0530|WARNING|ashmoh27|10444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:35:18.224 +0530|INFO|ashmoh27|10444|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:35:18.224 +0530|INFO|ashmoh27|10444|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:35:18.224 +0530|INFO|ashmoh27|10444|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:35:18.224 +0530|INFO|ashmoh27|10444|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 12:35:18.224 +0530|INFO|ashmoh27|10444|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:35:18.255 +0530|WARNING|ashmoh27|10444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:35:22.225 +0530|INFO|ashmoh27|10444|50|c.a.a.d.a.u.LogUtil.doReport|ID:0761871e-1988-4c54-9938-7c89f0a8590d|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1108;AllEndpointAttemptsElapsedMs=3017;ResponseSize=1365
+2018/06/21 12:35:22.241 +0530|INFO|ashmoh27|10444|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:35:22.307 +0530|WARNING|ashmoh27|10444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:35:23.384 +0530|INFO|ashmoh27|10444|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:35:23.384 +0530|INFO|ashmoh27|10444|46|c.a.a.d.a.u.LogUtil.doReport|ID:7c3cf3d4-e954-4ec7-8325-354d7a720585|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=1077;AllEndpointAttemptsElapsedMs=1077;ResponseSize=1815
+2018/06/21 12:35:23.463 +0530|WARNING|ashmoh27|10444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:35:24.383 +0530|INFO|ashmoh27|10444|43|c.a.a.d.a.u.LogUtil.doReport|ID:f8898e91-56c1-4677-84a4-1b9f229ae6be|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=905;AllEndpointAttemptsElapsedMs=920;ResponseSize=617
+2018/06/21 12:35:24.399 +0530|INFO|ashmoh27|10444|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:35:24.430 +0530|WARNING|ashmoh27|10444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:35:24.525 +0530|WARNING|ashmoh27|10444|61|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 12:35:25.320 +0530|INFO|ashmoh27|10444|49|c.a.a.d.a.u.LogUtil.doReport|ID:80e61f84-5dd8-478d-87c1-5d3e994444d4|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=890;AllEndpointAttemptsElapsedMs=890;ResponseSize=476
+2018/06/21 12:47:13.958 +0530|INFO|ashmoh27|8476|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:47:15.222 +0530|WARNING|ashmoh27|8476|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:47:15.222 +0530|INFO|ashmoh27|8476|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:47:15.222 +0530|INFO|ashmoh27|8476|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:47:15.222 +0530|INFO|ashmoh27|8476|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:47:15.222 +0530|INFO|ashmoh27|8476|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 12:47:15.222 +0530|INFO|ashmoh27|8476|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:47:15.238 +0530|WARNING|ashmoh27|8476|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:47:21.049 +0530|INFO|ashmoh27|8476|47|c.a.a.d.a.u.LogUtil.doReport|ID:b54cea21-8754-41e8-aa68-3c5e01b11342|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1561;AllEndpointAttemptsElapsedMs=4840;ResponseSize=1366
+2018/06/21 12:47:21.064 +0530|INFO|ashmoh27|8476|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:47:21.112 +0530|WARNING|ashmoh27|8476|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:47:22.064 +0530|INFO|ashmoh27|8476|43|c.a.a.d.a.u.LogUtil.doReport|ID:66d7947b-11c7-4b97-b43b-ded7255ec35e|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=952;AllEndpointAttemptsElapsedMs=952;ResponseSize=1814
+2018/06/21 12:47:22.079 +0530|INFO|ashmoh27|8476|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:47:22.167 +0530|WARNING|ashmoh27|8476|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:47:23.056 +0530|INFO|ashmoh27|8476|49|c.a.a.d.a.u.LogUtil.doReport|ID:05ea3a62-3d6c-43a8-96fd-161bcc69aa8a|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=889;AllEndpointAttemptsElapsedMs=889;ResponseSize=617
+2018/06/21 12:47:23.072 +0530|INFO|ashmoh27|8476|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:47:23.103 +0530|WARNING|ashmoh27|8476|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:47:23.291 +0530|WARNING|ashmoh27|8476|61|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 12:47:23.323 +0530|INFO|ashmoh27|8476|48|c.a.a.d.a.u.LogUtil.doReport|ID:e73dff17-3341-4e6b-b677-95168228956f|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hlth448.hydc.sbc.com:28099/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=1062;AllEndpointAttemptsElapsedMs=2039;ResponseSize=0
+2018/06/21 12:47:24.009 +0530|INFO|ashmoh27|8476|45|c.a.a.d.a.u.LogUtil.doReport|ID:b64c4b01-2681-4e3c-8a90-3a06953993c3|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=890;AllEndpointAttemptsElapsedMs=906;ResponseSize=476
+2018/06/21 12:49:46.860 +0530|INFO|ashmoh27|9192|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:49:47.687 +0530|WARNING|ashmoh27|9192|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:49:47.687 +0530|INFO|ashmoh27|9192|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:49:47.687 +0530|INFO|ashmoh27|9192|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:49:47.687 +0530|INFO|ashmoh27|9192|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:49:47.687 +0530|INFO|ashmoh27|9192|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 12:49:47.703 +0530|INFO|ashmoh27|9192|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:49:47.765 +0530|WARNING|ashmoh27|9192|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:49:53.761 +0530|INFO|ashmoh27|9192|47|c.a.a.d.a.u.LogUtil.doReport|ID:2f29e292-606d-45b2-8e5f-3f4e51da0fe8|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=921;AllEndpointAttemptsElapsedMs=4965;ResponseSize=1365
+2018/06/21 12:49:53.761 +0530|INFO|ashmoh27|9192|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:49:53.885 +0530|WARNING|ashmoh27|9192|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:49:54.776 +0530|INFO|ashmoh27|9192|42|c.a.a.d.a.u.LogUtil.doReport|ID:a9adcfc6-a7a2-4246-ba5c-707f9fe92a2b|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=891;AllEndpointAttemptsElapsedMs=891;ResponseSize=1813
+2018/06/21 12:49:54.791 +0530|INFO|ashmoh27|9192|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:49:54.807 +0530|WARNING|ashmoh27|9192|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:49:56.664 +0530|WARNING|ashmoh27|9192|61|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 12:49:56.727 +0530|INFO|ashmoh27|9192|48|c.a.a.d.a.u.LogUtil.doReport|ID:4cb335b1-591d-4ce9-b396-b0e92de518c4|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=1920;AllEndpointAttemptsElapsedMs=1920;ResponseSize=617
+2018/06/21 12:49:56.758 +0530|INFO|ashmoh27|9192|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:49:56.774 +0530|WARNING|ashmoh27|9192|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:49:57.664 +0530|INFO|ashmoh27|9192|46|c.a.a.d.a.u.LogUtil.doReport|ID:99ec8989-05d9-4716-92d2-eff5929c4b7a|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=874;AllEndpointAttemptsElapsedMs=890;ResponseSize=476
+2018/06/21 12:49:57.851 +0530|INFO|ashmoh27|9192|47|c.a.a.d.a.u.LogUtil.doReport|ID:6d4402c5-f14a-4453-bfcc-3b8f7806cd73|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hlth449.hydc.sbc.com:17427/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=2810;AllEndpointAttemptsElapsedMs=3824;ResponseSize=0
+2018/06/21 12:50:21.555 +0530|INFO|ashmoh27|5044|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:50:22.382 +0530|WARNING|ashmoh27|5044|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:50:22.382 +0530|INFO|ashmoh27|5044|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:50:22.382 +0530|INFO|ashmoh27|5044|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:50:22.382 +0530|INFO|ashmoh27|5044|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:50:22.382 +0530|INFO|ashmoh27|5044|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 12:50:22.382 +0530|INFO|ashmoh27|5044|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:50:22.429 +0530|WARNING|ashmoh27|5044|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:50:26.161 +0530|INFO|ashmoh27|5044|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:50:26.161 +0530|INFO|ashmoh27|5044|50|c.a.a.d.a.u.LogUtil.doReport|ID:59ee9029-5ad7-4e5d-809d-de4d39b30f7a|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=922;AllEndpointAttemptsElapsedMs=2718;ResponseSize=1366
+2018/06/21 12:50:26.239 +0530|WARNING|ashmoh27|5044|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:50:27.145 +0530|INFO|ashmoh27|5044|45|c.a.a.d.a.u.LogUtil.doReport|ID:74d1aa89-5158-4fed-b779-7c5039749ab9|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=874;AllEndpointAttemptsElapsedMs=906;ResponseSize=1814
+2018/06/21 12:50:27.161 +0530|INFO|ashmoh27|5044|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:50:27.176 +0530|WARNING|ashmoh27|5044|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:50:28.098 +0530|INFO|ashmoh27|5044|50|c.a.a.d.a.u.LogUtil.doReport|ID:ce32dece-21ec-4f4f-ba6c-73a1331934bf|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=875;AllEndpointAttemptsElapsedMs=891;ResponseSize=617
+2018/06/21 12:50:28.113 +0530|INFO|ashmoh27|5044|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:50:28.129 +0530|WARNING|ashmoh27|5044|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:50:28.410 +0530|WARNING|ashmoh27|5044|68|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 12:50:29.002 +0530|INFO|ashmoh27|5044|45|c.a.a.d.a.u.LogUtil.doReport|ID:f726a9e9-a985-4285-b656-8bbea889443b|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=858;AllEndpointAttemptsElapsedMs=873;ResponseSize=476
+2018/06/21 13:00:02.555 +0530|INFO|ashmoh27|6444|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:00:03.709 +0530|WARNING|ashmoh27|6444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:00:03.725 +0530|INFO|ashmoh27|6444|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:00:03.725 +0530|INFO|ashmoh27|6444|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:00:03.725 +0530|INFO|ashmoh27|6444|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:00:03.725 +0530|INFO|ashmoh27|6444|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 13:00:03.756 +0530|WARNING|ashmoh27|6444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:00:03.725 +0530|INFO|ashmoh27|6444|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:00:08.690 +0530|INFO|ashmoh27|6444|42|c.a.a.d.a.u.LogUtil.doReport|ID:666c2e07-6d91-4074-8a45-9aaa83443d1b|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1467;AllEndpointAttemptsElapsedMs=3341;ResponseSize=1365
+2018/06/21 13:00:08.706 +0530|INFO|ashmoh27|6444|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:00:08.769 +0530|WARNING|ashmoh27|6444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:00:09.783 +0530|INFO|ashmoh27|6444|46|c.a.a.d.a.u.LogUtil.doReport|ID:9b340a9f-0eb3-455b-a438-b85518de2fe9|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=921;AllEndpointAttemptsElapsedMs=936;ResponseSize=1813
+2018/06/21 13:00:09.783 +0530|INFO|ashmoh27|6444|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:00:09.816 +0530|WARNING|ashmoh27|6444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:00:10.689 +0530|INFO|ashmoh27|6444|47|c.a.a.d.a.u.LogUtil.doReport|ID:d1dc3909-9fe3-4b11-a210-3d00dc2b1489|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=858;AllEndpointAttemptsElapsedMs=873;ResponseSize=617
+2018/06/21 13:00:10.689 +0530|INFO|ashmoh27|6444|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:00:10.705 +0530|WARNING|ashmoh27|6444|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:00:11.001 +0530|WARNING|ashmoh27|6444|68|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 13:00:11.625 +0530|INFO|ashmoh27|6444|46|c.a.a.d.a.u.LogUtil.doReport|ID:4fdb4811-9c99-44f8-8598-3cff17b87ff0|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=920;AllEndpointAttemptsElapsedMs=920;ResponseSize=476
+2018/06/21 13:00:13.984 +0530|INFO|ashmoh27|6444|46|c.a.a.d.a.u.LogUtil.doReport|ID:86e59801-48fa-4b60-9306-003f06ed6479|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hltd216.hydc.sbc.com:57533/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=1000;AllEndpointAttemptsElapsedMs=4949;ResponseSize=0
+2018/06/21 13:06:18.987 +0530|INFO|ashmoh27|8052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:06:20.313 +0530|WARNING|ashmoh27|8052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:06:20.313 +0530|INFO|ashmoh27|8052|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:06:20.313 +0530|INFO|ashmoh27|8052|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:06:20.344 +0530|WARNING|ashmoh27|8052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:06:20.313 +0530|INFO|ashmoh27|8052|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:06:20.328 +0530|INFO|ashmoh27|8052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:06:20.328 +0530|INFO|ashmoh27|8052|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 13:06:25.265 +0530|INFO|ashmoh27|8052|43|c.a.a.d.a.u.LogUtil.doReport|ID:bf2ff975-1307-4178-968c-8843dbc045cd|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1546;AllEndpointAttemptsElapsedMs=3390;ResponseSize=1365
+2018/06/21 13:06:25.265 +0530|INFO|ashmoh27|8052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:06:25.297 +0530|WARNING|ashmoh27|8052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:06:26.202 +0530|INFO|ashmoh27|8052|46|c.a.a.d.a.u.LogUtil.doReport|ID:966ec9cb-00a5-463b-9e31-387f37a271ce|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=905;AllEndpointAttemptsElapsedMs=905;ResponseSize=1813
+2018/06/21 13:06:26.202 +0530|INFO|ashmoh27|8052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:06:26.217 +0530|WARNING|ashmoh27|8052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:06:27.123 +0530|INFO|ashmoh27|8052|43|c.a.a.d.a.u.LogUtil.doReport|ID:4cd140b9-c594-4fca-8d2f-1f118e649bd0|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=890;AllEndpointAttemptsElapsedMs=890;ResponseSize=617
+2018/06/21 13:06:27.123 +0530|INFO|ashmoh27|8052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:06:27.139 +0530|WARNING|ashmoh27|8052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:06:27.544 +0530|WARNING|ashmoh27|8052|61|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 13:06:28.028 +0530|INFO|ashmoh27|8052|47|c.a.a.d.a.u.LogUtil.doReport|ID:81f887c2-c2af-43a0-9653-a1097ae76f2e|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=889;AllEndpointAttemptsElapsedMs=889;ResponseSize=476
+2018/06/21 13:06:29.357 +0530|INFO|ashmoh27|8052|48|c.a.a.d.a.u.LogUtil.doReport|ID:c2f58b84-e993-41cf-a37b-2a0cdba503c2|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hltd216.hydc.sbc.com:57533/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=985;AllEndpointAttemptsElapsedMs=3857;ResponseSize=0
+2018/06/21 13:07:46.709 +0530|INFO|ashmoh27|11052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:07:47.863 +0530|WARNING|ashmoh27|11052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:07:47.863 +0530|INFO|ashmoh27|11052|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:07:47.863 +0530|INFO|ashmoh27|11052|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:07:47.863 +0530|INFO|ashmoh27|11052|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:07:47.863 +0530|INFO|ashmoh27|11052|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 13:07:47.863 +0530|INFO|ashmoh27|11052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:07:47.958 +0530|WARNING|ashmoh27|11052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:07:52.441 +0530|INFO|ashmoh27|11052|50|c.a.a.d.a.u.LogUtil.doReport|ID:720feb88-b7c8-40c2-b895-3a4ea0026cf1|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=890;AllEndpointAttemptsElapsedMs=2704;ResponseSize=1365
+2018/06/21 13:07:52.441 +0530|INFO|ashmoh27|11052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:07:52.519 +0530|WARNING|ashmoh27|11052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:07:53.425 +0530|INFO|ashmoh27|11052|47|c.a.a.d.a.u.LogUtil.doReport|ID:0c09c41b-875f-466a-a8e5-1c91d465ca34|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=906;AllEndpointAttemptsElapsedMs=906;ResponseSize=1813
+2018/06/21 13:07:53.425 +0530|INFO|ashmoh27|11052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:07:53.456 +0530|WARNING|ashmoh27|11052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:07:54.345 +0530|INFO|ashmoh27|11052|50|c.a.a.d.a.u.LogUtil.doReport|ID:3ef936e0-3545-4b66-b747-e682b2fd61fc|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=873;AllEndpointAttemptsElapsedMs=889;ResponseSize=617
+2018/06/21 13:07:54.345 +0530|INFO|ashmoh27|11052|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:07:54.377 +0530|WARNING|ashmoh27|11052|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:07:54.674 +0530|WARNING|ashmoh27|11052|61|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 13:07:55.282 +0530|INFO|ashmoh27|11052|45|c.a.a.d.a.u.LogUtil.doReport|ID:5a3a491e-6f14-42a8-b0fe-060ba88ec7db|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=889;AllEndpointAttemptsElapsedMs=905;ResponseSize=476
+2018/06/21 13:07:55.594 +0530|INFO|ashmoh27|11052|49|c.a.a.d.a.u.LogUtil.doReport|ID:397b9821-93e5-4cb1-9019-92a700377f4e|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hltd216.hydc.sbc.com:57533/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=998;AllEndpointAttemptsElapsedMs=2903;ResponseSize=0
+2018/06/21 13:11:18.545 +0530|INFO|ashmoh27|10956|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:11:19.699 +0530|WARNING|ashmoh27|10956|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:11:19.699 +0530|INFO|ashmoh27|10956|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:11:19.699 +0530|INFO|ashmoh27|10956|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:11:19.699 +0530|INFO|ashmoh27|10956|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 13:11:19.699 +0530|INFO|ashmoh27|10956|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 13:11:19.715 +0530|INFO|ashmoh27|10956|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:11:19.778 +0530|WARNING|ashmoh27|10956|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:11:23.754 +0530|INFO|ashmoh27|10956|50|c.a.a.d.a.u.LogUtil.doReport|ID:ad07fb62-4169-4718-b3a6-9866c4585ec1|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=905;AllEndpointAttemptsElapsedMs=2696;ResponseSize=1365
+2018/06/21 13:11:23.786 +0530|INFO|ashmoh27|10956|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:11:23.848 +0530|WARNING|ashmoh27|10956|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:11:24.723 +0530|INFO|ashmoh27|10956|46|c.a.a.d.a.u.LogUtil.doReport|ID:42ee5ace-d617-40df-a5a2-04e9b56dc4d1|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=859;AllEndpointAttemptsElapsedMs=859;ResponseSize=1813
+2018/06/21 13:11:24.723 +0530|INFO|ashmoh27|10956|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:11:24.723 +0530|WARNING|ashmoh27|10956|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:11:25.612 +0530|INFO|ashmoh27|10956|50|c.a.a.d.a.u.LogUtil.doReport|ID:33c2ec14-0f9c-4318-bc4f-ec77556afc6d|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=889;AllEndpointAttemptsElapsedMs=889;ResponseSize=617
+2018/06/21 13:11:25.612 +0530|INFO|ashmoh27|10956|1|null.null|DME2 Version=2.8.13
+2018/06/21 13:11:25.627 +0530|WARNING|ashmoh27|10956|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 13:11:25.987 +0530|WARNING|ashmoh27|10956|65|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 13:11:25.987 +0530|INFO|ashmoh27|10956|45|c.a.a.d.a.u.LogUtil.doReport|ID:91c45609-8eaa-4d9b-937b-5894e8bc3100|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hlth449.hydc.sbc.com:17427/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=1015;AllEndpointAttemptsElapsedMs=1952;ResponseSize=0
+2018/06/21 13:11:26.502 +0530|INFO|ashmoh27|10956|48|c.a.a.d.a.u.LogUtil.doReport|ID:729a11f0-1bae-48fe-a392-67bf862dc84a|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=858;AllEndpointAttemptsElapsedMs=875;ResponseSize=476
+2018/06/21 15:41:34.795 +0530|INFO|ashmoh27|8604|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:41:38.945 +0530|WARNING|ashmoh27|8604|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:41:38.945 +0530|INFO|ashmoh27|8604|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 15:41:38.961 +0530|INFO|ashmoh27|8604|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 15:41:38.945 +0530|INFO|ashmoh27|8604|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 15:41:38.961 +0530|INFO|ashmoh27|8604|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 15:41:38.976 +0530|INFO|ashmoh27|8604|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:41:39.086 +0530|WARNING|ashmoh27|8604|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:41:53.023 +0530|INFO|ashmoh27|8604|49|c.a.a.d.a.u.LogUtil.doReport|ID:ed9e58ed-f50c-421b-b560-e56da3cefcf4|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=2794;AllEndpointAttemptsElapsedMs=8539;ResponseSize=1366
+2018/06/21 15:41:53.055 +0530|INFO|ashmoh27|8604|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:41:53.352 +0530|WARNING|ashmoh27|8604|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:41:55.598 +0530|INFO|ashmoh27|8604|49|c.a.a.d.a.u.LogUtil.doReport|ID:ab062304-169c-401b-9669-5f7b9458223e|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=2231;AllEndpointAttemptsElapsedMs=2246;ResponseSize=1814
+2018/06/21 15:41:55.598 +0530|INFO|ashmoh27|8604|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:41:55.646 +0530|WARNING|ashmoh27|8604|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:41:56.566 +0530|INFO|ashmoh27|8604|46|c.a.a.d.a.u.LogUtil.doReport|ID:5182113a-e727-4877-a73a-068436299bc8|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=873;AllEndpointAttemptsElapsedMs=920;ResponseSize=618
+2018/06/21 15:41:56.566 +0530|INFO|ashmoh27|8604|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:41:56.598 +0530|WARNING|ashmoh27|8604|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:41:57.472 +0530|INFO|ashmoh27|8604|49|c.a.a.d.a.u.LogUtil.doReport|ID:84bff785-8fee-46b0-8987-6f9afe2db1bd|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hlth448.hydc.sbc.com:28099/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=1561;AllEndpointAttemptsElapsedMs=3637;ResponseSize=0
+2018/06/21 15:41:57.472 +0530|WARNING|ashmoh27|8604|61|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 15:41:57.519 +0530|INFO|ashmoh27|8604|43|c.a.a.d.a.u.LogUtil.doReport|ID:6aaaf874-db82-4e88-b056-ab1a48c73c37|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=890;AllEndpointAttemptsElapsedMs=921;ResponseSize=476
+2018/06/21 15:44:35.784 +0530|INFO|ashmoh27|8540|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:44:38.639 +0530|WARNING|ashmoh27|8540|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:44:38.639 +0530|INFO|ashmoh27|8540|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 15:44:38.639 +0530|INFO|ashmoh27|8540|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 15:44:38.639 +0530|INFO|ashmoh27|8540|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 15:44:38.655 +0530|INFO|ashmoh27|8540|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 15:44:38.655 +0530|INFO|ashmoh27|8540|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:44:38.921 +0530|WARNING|ashmoh27|8540|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:44:46.873 +0530|INFO|ashmoh27|8540|41|c.a.a.d.a.u.LogUtil.doReport|ID:b6b8dbb5-7305-4cc8-bf43-9676cc4f7d01|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1046;AllEndpointAttemptsElapsedMs=3614;ResponseSize=1366
+2018/06/21 15:44:46.888 +0530|INFO|ashmoh27|8540|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:44:47.092 +0530|WARNING|ashmoh27|8540|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:44:49.042 +0530|INFO|ashmoh27|8540|44|c.a.a.d.a.u.LogUtil.doReport|ID:823eb399-bda9-4acd-ae78-3392063b7dfb|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=1872;AllEndpointAttemptsElapsedMs=1934;ResponseSize=1813
+2018/06/21 15:44:49.042 +0530|INFO|ashmoh27|8540|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:44:49.074 +0530|WARNING|ashmoh27|8540|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:44:51.228 +0530|INFO|ashmoh27|8540|45|c.a.a.d.a.u.LogUtil.doReport|ID:a7329090-f913-438b-ad55-4f766bde1d04|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=2138;AllEndpointAttemptsElapsedMs=2138;ResponseSize=617
+2018/06/21 15:44:51.259 +0530|INFO|ashmoh27|8540|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:44:51.291 +0530|WARNING|ashmoh27|8540|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:44:51.977 +0530|WARNING|ashmoh27|8540|61|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 15:44:51.993 +0530|INFO|ashmoh27|8540|48|c.a.a.d.a.u.LogUtil.doReport|ID:aceb59e0-4098-49b4-9212-dc58e83189c2|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hlth449.hydc.sbc.com:17427/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=2638;AllEndpointAttemptsElapsedMs=4480;ResponseSize=0
+2018/06/21 15:44:52.212 +0530|INFO|ashmoh27|8540|46|c.a.a.d.a.u.LogUtil.doReport|ID:3a3dbdef-4de6-4cd5-bcda-9bca41dfc5e3|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=906;AllEndpointAttemptsElapsedMs=921;ResponseSize=476
+2018/06/21 15:46:22.040 +0530|INFO|ashmoh27|9920|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:46:25.815 +0530|WARNING|ashmoh27|9920|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:46:25.830 +0530|INFO|ashmoh27|9920|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 15:46:25.846 +0530|INFO|ashmoh27|9920|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 15:46:25.846 +0530|INFO|ashmoh27|9920|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 15:46:25.846 +0530|INFO|ashmoh27|9920|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 15:46:25.862 +0530|INFO|ashmoh27|9920|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:46:26.003 +0530|WARNING|ashmoh27|9920|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:46:34.245 +0530|INFO|ashmoh27|9920|46|c.a.a.d.a.u.LogUtil.doReport|ID:14bebede-b014-4b9c-9084-92328eddbc95|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=2044;AllEndpointAttemptsElapsedMs=4512;ResponseSize=1366
+2018/06/21 15:46:34.277 +0530|INFO|ashmoh27|9920|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:46:34.386 +0530|WARNING|ashmoh27|9920|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:46:35.369 +0530|INFO|ashmoh27|9920|43|c.a.a.d.a.u.LogUtil.doReport|ID:584a4bbe-c5ae-4fd8-ad41-4ac67e4df5da|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=952;AllEndpointAttemptsElapsedMs=983;ResponseSize=1814
+2018/06/21 15:46:35.385 +0530|INFO|ashmoh27|9920|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:46:35.429 +0530|WARNING|ashmoh27|9920|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:46:38.035 +0530|INFO|ashmoh27|9920|50|c.a.a.d.a.u.LogUtil.doReport|ID:03d148f7-7ad9-4607-976a-79d7e683e734|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=2591;AllEndpointAttemptsElapsedMs=2606;ResponseSize=618
+2018/06/21 15:46:38.051 +0530|INFO|ashmoh27|9920|1|null.null|DME2 Version=2.8.13
+2018/06/21 15:46:38.113 +0530|WARNING|ashmoh27|9920|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 15:46:38.768 +0530|WARNING|ashmoh27|9920|68|c.a.a.d.i.m.c.HttpPublisher.publish|Error occured sending data to MetricsService.
+ - Throwable occurred: com.att.aft.dme2.api.DME2Exception: [AFT-DME2-0999]: Service did not respond after waiting caller provided timeout.Validate that service is running in a healthy state. [Context: service=http://DME2RESOLVE/service=com.att.aft.MetricsService/version=1/envContext=UAT/routeOffer=DEFAULT;timeoutMs=1000;]
+	at com.att.aft.dme2.api.DME2SimpleReplyHandler.getResponse(DME2SimpleReplyHandler.java:97)
+	at com.att.aft.dme2.api.DME2Client.sendAndWait(DME2Client.java:401)
+	at com.att.aft.dme2.internal.metrics.collector.HttpPublisher.publish(HttpPublisher.java:113)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:281)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsCollector.publish(MetricsCollector.java:255)
+	at com.att.aft.dme2.internal.metrics.collector.MetricsPublisherTask.run(MetricsPublisherTask.java:25)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.Exception: Service call timedout
+	... 13 more
+2018/06/21 15:46:39.049 +0530|INFO|ashmoh27|9920|46|c.a.a.d.a.u.LogUtil.doReport|ID:230399a2-98e4-4194-a20c-b3a7159f9c7c|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=920;AllEndpointAttemptsElapsedMs=936;ResponseSize=477
+2018/06/21 15:46:39.768 +0530|INFO|ashmoh27|9920|43|c.a.a.d.a.u.LogUtil.doReport|ID:5a41c1e6-2860-451f-9b44-7228755aac14|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://hlth449.hydc.sbc.com:17427/service=com.att.aft.MetricsService/version=1.2.11/envContext=UAT/routeOffer=DEFAULT;ResponseStatus=200;EndpointElapsedMs=1015;AllEndpointAttemptsElapsedMs=4960;ResponseSize=0

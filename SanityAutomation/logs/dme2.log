@@ -1,0 +1,17 @@
+2018/06/21 12:33:17.945 +0530|WARNING|ashmoh27|8380|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:33:17.945 +0530|INFO|ashmoh27|8380|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:33:17.945 +0530|INFO|ashmoh27|8380|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:33:17.945 +0530|INFO|ashmoh27|8380|1|c.a.a.d.a.u.DME2ThrottleConfig.loadProps|N/A|N/A|Loading from: null
+2018/06/21 12:33:17.945 +0530|INFO|ashmoh27|8380|1|c.a.a.d.a.u.LogUtil.doReport|N/A|N/A|Error loading throttling props from: dme2-throttle-config.properties, using default throttle setting
+2018/06/21 12:33:17.945 +0530|INFO|ashmoh27|8380|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:33:17.992 +0530|WARNING|ashmoh27|8380|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:33:22.317 +0530|INFO|ashmoh27|8380|43|c.a.a.d.a.u.LogUtil.doReport|ID:f11ff24c-7bdd-45ad-a7eb-185c8ae82e7e|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/fxversion;ResponseStatus=200;EndpointElapsedMs=1624;AllEndpointAttemptsElapsedMs=3388;ResponseSize=1366
+2018/06/21 12:33:22.332 +0530|INFO|ashmoh27|8380|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:33:22.427 +0530|WARNING|ashmoh27|8380|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:33:23.347 +0530|INFO|ashmoh27|8380|47|c.a.a.d.a.u.LogUtil.doReport|ID:8c497e42-607c-4dac-8768-4e976c462009|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceScenario;ResponseStatus=200;EndpointElapsedMs=920;AllEndpointAttemptsElapsedMs=920;ResponseSize=1814
+2018/06/21 12:33:23.363 +0530|INFO|ashmoh27|8380|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:33:23.363 +0530|WARNING|ashmoh27|8380|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:33:24.253 +0530|INFO|ashmoh27|8380|43|c.a.a.d.a.u.LogUtil.doReport|ID:ba1b6d2e-4edd-486b-8162-4ef770714962|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/pricePlan;ResponseStatus=200;EndpointElapsedMs=874;AllEndpointAttemptsElapsedMs=890;ResponseSize=617
+2018/06/21 12:33:24.269 +0530|INFO|ashmoh27|8380|1|null.null|DME2 Version=2.8.13
+2018/06/21 12:33:24.300 +0530|WARNING|ashmoh27|8380|1|null.null|No logging properties set or logging properties set incorrectly. Logging property change monitoring will not be active.
+2018/06/21 12:33:25.174 +0530|INFO|ashmoh27|8380|47|c.a.a.d.a.u.LogUtil.doReport|ID:06cf9efb-81fc-4701-9b3e-69d4e7f0fb24|Ashok|Code=Client.Receive.Success;ServerURL=HTTP://zlt16927.vci.att.com:31408/restservices/servicecomponentpricingsession/v1/componentpricing/priceAcknowledge;ResponseStatus=200;EndpointElapsedMs=874;AllEndpointAttemptsElapsedMs=874;ResponseSize=476
